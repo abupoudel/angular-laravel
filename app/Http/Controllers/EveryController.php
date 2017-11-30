@@ -27,7 +27,7 @@ class EveryController extends Controller
         return view('home');
     }
     public function homeData() {
-        return "This is a special text area where data comes from <b>Pichwada bata aako chij.</b>";
+        return "This is a special text area where data comes from <b>backend with HTML.</b>";
     }
     /**
      * Show the profile for the given user.
